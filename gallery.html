@@ -1,0 +1,153 @@
+<!-- The gallery page for the Web Development Project Task B - Explore Wicklow Town
+@author Shane Reynolds
+-FZB 7976 -->
+
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Explore Wicklow Town Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+</head>
+
+
+<body>
+    <div class="container-fluid" id="wholePage">
+        <div class="row justify-content-center">
+            <div class="row justify-content-center" id="siteHeader">
+                <div align="center" class="col-sm-1">
+                    <img class="crest" src="./images/wicklow-coat-of-arms.png" alt="Wicklow coat of arms">
+                </div>
+                <div align="center" class="col-sm-5">
+                    <h1>Explore Wicklow Town</h1>
+                </div>
+                <div style="z-index: 1" align="center" class="col-sm-6">
+                    <nav>
+                        <ul class="menu">
+                            <li><a class="menuButton" href="index.html">Home</a></li>
+                            <li><a class="menuButton" href="attractions.html">Attractions</a></li>
+                            <li><a class="menuButton" href="events.html">Events</a></li>
+                            <li><a class="menuButton" href="gallery.html">Gallery</a></li>
+                            <li><a class="menuButton" href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="row justify-content-center">
+                <div align="center" class="col-sm-4"></div>
+                <div align="center" class="col-sm-4">
+                    <h2>Gallery</h2>
+                    <h3>Wicklow scenery and heritage spots</h3>
+                    <hr>
+                    <br>
+                </div>
+                <div align="center" class="col-sm-4">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row justify-content-center">
+            <div align="center" class="col-sm-4"> <!-- First third of screen drom left: display image with text below -->
+                <img id="harbour" src="./images/wicklowjail.jpg" alt="Wicklow jail">
+
+                <p><br>Wicklow Gaol is an unforgettable journey through an original prison building,
+                    telling the stories of the men, women and children imprisoned here under British rule over two
+                    centuries of turbulent history.</p>
+            </div>
+            <div align="center" class="col-sm-4"> <!-- Second third of screen from left: display image with text above -->
+                <p><br>This castle ruin stands on a rocky promontory over the sea, at the eastern side of the town.
+                    Following the arrival of the Norman’s in 1169 Earl Strongbow was granted the lands along the East
+                    Coast.
+                    He in turn granted those lands to Baron Maurice Fitzgerald on condition that he build castles for
+                    protection.</p>
+                <img id="harbour" src="./images/black-castle.jpg" alt="Wicklow harbour">
+            </div>
+            <div align="center" class="col-sm-4"> <!-- Final third of screen from left: display image with text below -->
+                <img id="harbour" src="./images/TheMurrough.jpg" alt="Wicklow harbour">
+                <p><br>'The Murrough’ is a 15 km long coastal wetland area, extending North of Wicklow Town as far as
+                    Greystones.
+                    It is the largest coastal wetland complex on the East coast of Ireland and is a magnificent wildlife
+                    haven and an outstanding area of natural heritage.</p>
+            </div>
+
+        </div>
+
+
+
+
+
+        <!-- Dotted horizontal rule for division. Repeat the image:text pattern below. -->
+        <hr id="dottedHR">
+
+
+
+        <div class="row justify-content-center">
+            <div align="center" class="col-sm-4">
+
+                <p><br>Vartry Reservoir (Irish: Taiscumar Fheartraí) is a reservoir at Roundwood in County Wicklow,
+                    Ireland.
+                    The water is piped from Vartry to a large open service reservoir in Stillorgan in the southern
+                    suburbs of Dublin. The reservoir is operated by Irish Water.</p>
+                <img id="harbour" src="./images/Vartry_Reservoir.jpg" alt="Wicklow jail">
+
+
+            </div>
+            <div align="center" class="col-sm-4">
+
+                <img id="harbour" src="./images/Kilmacurragh.jpg" alt="Wicklow harbour">
+                <p><br>The National Botanic Gardens, Kilmacurragh lie within an estate developed extensively during the
+                    19th century by Thomas Acton in conjunction with David Moore and his son Sir Frederick Moore,
+                    Curators of the National Botanic Gardens, Glasnevin at that time.
+                    It was a period of great botanical and geographical explorations with numerous plant species from
+                    around the world being introduced to Ireland for the first time.</p>
+            </div>
+            <div align="center" class="col-sm-4">
+                <p><br>The Great Sugarloaf (Ó Cualann also Beannach Mhór) is 4km west of Kilmacanogue. Its isolation
+                    from other hills, steep slopes, and conical shape makes it appear much taller than it’s 501m height
+                    above sea level.
+                    It is composed of Cambrian quartzite and is an erosion-resistant metamorphosed sedimentary deposit
+                    that once formed part of the ocean floor.</p>
+                <img id="harbour" src="./images/the-sugarloaf.jpg" alt="Wicklow harbour">
+
+            </div>
+
+        </div>
+
+
+
+        <div class="row justify-content-center">
+            <div class="row justify-content-center" id="siteBody">
+
+                <div align="center" class="col-sm-3">
+                </div>
+                <div align="center" class="col-sm-6"> <!-- In the middle of this div, display a youtube video as an iframe, with specified dimensions. works on mobile too. -->
+                    <iframe id="video" width="960" height="540" src="https://www.youtube.com/embed/Pak2iH4pzoc">
+                    </iframe>
+                </div>
+                <div align="center" class="col-sm-3">
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Footer -->
+        <div class="row justify-content-center">
+            <div class="row justify-content-center" id="siteFooter">
+                <div align="center" class="col-sm-4"></div>
+                <div align="center" class="col-sm-4">
+                    <p class="footerP">Explore Wicklow Town - A Web Development Project 2022 - Shane Reynolds</p>
+                </div>
+                <div align="center" class="col-sm-4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
